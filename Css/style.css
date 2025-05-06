@@ -1,0 +1,243 @@
+html body {
+   font-family: "Comic Neue", cursive;
+   background-color: #272B30 !important;
+
+}
+
+.image-up {
+   height: 30vh;
+}
+
+.image-up img {
+   width: 100%;
+   background-size: cover;
+   height: 100%;
+   object-fit: cover;
+   background-position: center center;
+
+
+}
+
+
+.position-sticky {
+   position: sticky !important;
+}
+
+.top-0 {
+   top: 0 !important;
+}
+
+.z-0 {
+   z-index: 99999 !important;
+}
+
+
+
+
+
+.navbar .container {
+   background-color: #3A497B !important;
+   border-radius: 20px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.navbar .container .navbar-brand {
+   color: #fff !important;
+
+}
+
+.navbar .container .navbar-brand img {
+   color: #fff !important;
+   width: 50px;
+
+}
+
+.navbar .container .navbar-brand h5 {
+   font-size: 20px;
+   line-height: 24px;
+   margin-top: 16px;
+   padding-block: 5px;
+   font-weight: 500 !important;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+.navbar .navbar-nav .nav-item a {
+   color: #fff !important;
+   font-size: 16px;
+   font-weight: 500 !important;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   padding-block: 5px;
+   transition: all 0.3s;
+}
+
+.navbar .navbar-nav .nav-item a.active {
+   color:
+      #0099CC !important;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+   color: #0099CC !important;
+   transition: all 0.3s;
+}
+
+.card {
+   background-color: #272B30 !important;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+   color: #fff !important;
+   transition: all 0.3s;
+}
+
+.card:hover {
+   transform: scale(1.05);
+   transition: all 0.5s;
+}
+
+.card,
+.header {
+   margin-bottom: 10px;
+}
+
+.card .card-text {
+   padding: 10px;
+}
+
+.card .card-text h3 {
+   font-size: 20px;
+}
+
+.card .card-text span {
+   background-color: #3A497B;
+   padding: 5px 10px;
+   border-radius: 10px;
+   font-size: 14px;
+}
+
+.loading {
+   position: fixed;
+   z-index: 9999;
+   inset: 0;
+   background-color: #272b30e3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+}
+
+.loader {
+   transform: rotateZ(45deg);
+   perspective: 1000px;
+   border-radius: 50%;
+   width: 48px;
+   height: 48px;
+   color: #fff;
+}
+
+.loader:before,
+.loader:after {
+   content: '';
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: inherit;
+   height: inherit;
+   border-radius: 50%;
+   transform: rotateX(70deg);
+   animation: 1s spin linear infinite;
+}
+
+.loader:after {
+   color: #FF3D00;
+   transform: rotateY(70deg);
+   animation-delay: .4s;
+}
+
+@keyframes rotate {
+   0% {
+      transform: translate(-50%, -50%) rotateZ(0deg);
+   }
+
+   100% {
+      transform: translate(-50%, -50%) rotateZ(360deg);
+   }
+}
+
+@keyframes rotateccw {
+   0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+   }
+
+   100% {
+      transform: translate(-50%, -50%) rotate(-360deg);
+   }
+}
+
+@keyframes spin {
+
+   0%,
+   100% {
+      box-shadow: .2em 0px 0 0px currentcolor;
+   }
+
+   12% {
+      box-shadow: .2em .2em 0 0 currentcolor;
+   }
+
+   25% {
+      box-shadow: 0 .2em 0 0px currentcolor;
+   }
+
+   37% {
+      box-shadow: -.2em .2em 0 0 currentcolor;
+   }
+
+   50% {
+      box-shadow: -.2em 0 0 0 currentcolor;
+   }
+
+   62% {
+      box-shadow: -.2em -.2em 0 0 currentcolor;
+   }
+
+   75% {
+      box-shadow: 0px -.2em 0 0 currentcolor;
+   }
+
+   87% {
+      box-shadow: .2em -.2em 0 0 currentcolor;
+   }
+}
+
+.details a {
+   text-decoration: none !important;
+   color: #fff;
+   background-color: transparent;
+   font-size: 16px;
+   padding: 5px 7px;
+   border-radius: 10px;
+   border: 1px solid #ffbf00;
+   transition: all 0.3s;
+}
+.details a:hover {
+   background-color: #ffbf00;
+   color: #000000 !important;
+   transition: all 0.3s;
+}
+.details{
+   color: white;
+}
+.details p{
+   color: white;
+}
+.details .header{
+ display: flex;
+ justify-content: space-between;
+   align-items: center;
+padding-inline: 50px;
+}
+.details .container{
+   display: flex;
+}
