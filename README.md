@@ -1,9 +1,9 @@
 
-Games App
-A simple web app built with HTML, CSS, and JavaScript.
+Games App 
+ web app built with HTML, CSS, and JavaScript.
 Fetches real game data from an API, displays it in cards, and shows a full details page for each game with direct links to the original websites.
 
-🌐 Live Demo: 🌐 **Live Demo:** [Games App ](https://g-remon.github.io/games/)
+🌐 Live Demo: [Games App ](https://g-remon.github.io/games/)
 
 📸 Preview:
 Add a screenshot of the homepage
